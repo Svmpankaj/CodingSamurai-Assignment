@@ -25,7 +25,7 @@ body {
 }
 
 input {
-    width: 100%;
+    width: 320px;
     border: none;
     padding: 24px;
     margin: 10px;
@@ -34,6 +34,7 @@ input {
     font-size: 40px;
     text-align: right;
     cursor: pointer;
+    color: #ffffff;
 }
 
 input::placeholder {
@@ -48,7 +49,7 @@ button {
     border-radius: 50%;
     background: transparent;
     color: #ffffff;
-    font: 20px;
+    font-size: 20px;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
     cursor: pointer;
 }
